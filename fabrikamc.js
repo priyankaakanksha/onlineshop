@@ -2,7 +2,7 @@ var express=require('express');
 var app=express();
 var fabrikamController=function(req,res)
 {
-var fabrikam=[{id:1,name:"abc"},{id:2,name:"cde"},
+var fabrikam=[{productid:1,productname:"shirts",quantity:"2"},{productid:2,productname:"earings",quantity:"4"},
 
 ];
 res.send(fabrikam)
